@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="h-[85vh] flex flex-col justify-center items-center text-center bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white">
+    <div className="h-[85vh] flex flex-col justify-center items-center text-center bg-linear-to-r from-gray-900 via-black to-gray-900 text-white">
       <h1 className="text-6xl font-bold tracking-wide">
         Drive Your Dream
       </h1>

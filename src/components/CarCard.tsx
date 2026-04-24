@@ -5,6 +5,7 @@ export default function CarCard({ car }: any) {
     <div className="bg-white rounded-2xl shadow hover:shadow-2xl transition transform hover:-translate-y-2 overflow-hidden">
       <img
         src={car.image}
+        alt={car.name}
         className="h-52 w-full object-cover hover:scale-110 transition"
       />
 
